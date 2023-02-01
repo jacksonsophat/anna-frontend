@@ -12,7 +12,7 @@
 </script>
 
 <div>
-	<section class="hero p-6 md:p-12">
+	<section class="bg-[url('/images/bg/bg-1.png')] p-6 md:p-12">
 		<div
 			class="text-white bg-black/25 p-4 md:p-8 rounded md:flex text-center md:text-left container"
 		>
@@ -136,9 +136,3 @@
 		</div>
 	</section>
 </div>
-
-<style>
-	.hero {
-		background-image: url('images/bg/bg-1.png');
-	}
-</style>
