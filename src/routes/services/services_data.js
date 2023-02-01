@@ -1,7 +1,7 @@
 export const services = [
     {
         id: '01',
-        icon: '<iconify-icon icon="material-symbols:add-home-work-outline"></iconify-icon>',
+        icon: '<iconify-icon icon="material-symbols:work-outline"></iconify-icon>',
         title: 'Labor & Employment',
         detail: ['Employment contracts', 'Advice for industrial relations', 'Internal policies and human resource handbook', 'Regulatory update and compliance', 'Labor due diligence', 'Registrations, work permits and employment cards', 'Labor disputes']
     },

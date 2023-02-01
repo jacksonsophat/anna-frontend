@@ -9,15 +9,23 @@
 	let header = 'Services';
 </script>
 
+<svelte:head>
+	<title>Our Services | Anna & Associates</title>
+	<meta
+		name="description"
+		content="The ultimate services you need to start your business in Cambodia!"
+	/>
+</svelte:head>
+
 <div class="container">
 	<!-- <h1 class="text-center text-4xl font-semibold text-primary">Services</h1> -->
-	<PageHeader PageHeader={'Services'} />
+	<PageHeader pageHeader={'Services'} />
 
 	<div class="grid grid-cols-1 md:grid-cols-3 my-4">
 		{#each services as { id, icon, title, detail }, i}
 			<!-- svelte-ignore a11y-click-events-have-key-events -->
 			<div
-				class="py-8 border rounded m-4 hover:bg-blue-100  hover:border-primary duration-200"
+				class="py-8 border rounded m-4 hover:bg-blue-100  hover:border-primary duration-200 cursor-pointer"
 				{id}
 				on:click={toggle}
 			>
