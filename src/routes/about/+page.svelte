@@ -12,8 +12,10 @@
 </script>
 
 <div>
-	<section class="bg-[url('images/bg/bg-1.png')] p-6 md:p-12">
-		<div class="text-white bg-black/25 p-4 md:p-8 rounded md:flex text-center md:text-left">
+	<section class="hero p-6 md:p-12">
+		<div
+			class="text-white bg-black/25 p-4 md:p-8 rounded md:flex text-center md:text-left container"
+		>
 			<h2 class="text-xl font-semibold mb-4  md:w-1/3">Our Mission</h2>
 			<p>
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam deserunt impedit
@@ -135,10 +137,8 @@
 	</section>
 </div>
 
-<!-- <ul>
-	{#each people as { id, name }, i}
-		<li>
-			{name}
-		</li>
-	{/each}
-</ul> -->
+<style>
+	.hero {
+		background-image: url('images/bg/bg-1.png');
+	}
+</style>

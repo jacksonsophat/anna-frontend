@@ -12,6 +12,8 @@
 	// bg-[url('/images/anna-hero-image-3.jpg')]
 
 	// bg-[url{heroBg}]
+
+	let bgImage = 'images/anna-hero-img-4.jpg';
 </script>
 
 <svelte:head>
@@ -19,9 +21,7 @@
 	<meta name="description" content="Svelte homepage" />
 </svelte:head>
 
-<main
-	class="bg-[url('images/anna-hero-img-4.jpg')] h-screen bg-cover bg-center flex items-center justify-center relative"
->
+<main class="hero h-screen bg-cover bg-center flex items-center justify-center relative">
 	<div
 		class="bg-white/50 backdrop-blur-md backdrop-opacity-60 mx-4 text-center text-primary py-4 md:py-12 md:px-8 rounded"
 	>
@@ -54,3 +54,9 @@
 		</a>
 	</div>
 </main>
+
+<style>
+	.hero {
+		background-image: url('images/anna-hero-img-4.jpg');
+	}
+</style>
