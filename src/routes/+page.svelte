@@ -51,7 +51,7 @@
 		</a> -->
 		<a
 			href="/contact"
-			class="bg-primary duration-300 hover:bg-yellow-400 hover:text-gray-900 px-4 py-2 rounded absolute top-3/4 right-0 flex items-center w-36 justify-center"
+			class="bg-primary duration-300 hover:bg-yellow-400 hover:text-gray-900 px-4 py-2 rounded absolute top-1/4 right-0 flex items-center w-36 justify-center"
 			><iconify-icon icon="material-symbols:phone-forwarded" class="mr-1" />Contact
 		</a>
 	</div>

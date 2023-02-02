@@ -1,4 +1,4 @@
-<div class="bg-[url('images/anna-map.png')] h-[50vh] bg-center bg-no-repeat w-screen" />
+<div class="bg-[url('/images/anna-map.png')] h-[50vh] bg-center bg-no-repeat w-screen" />
 
 <div class="mt-[-350px] container">
 	<h1

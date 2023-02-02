@@ -94,20 +94,24 @@
 
 			<div class="container">
 				<div class="md:flex gap-4 mb-8 justify-center">
-					<div class="bg-gray-100 p-2 rounded mb-4">
-						<img src="/images/people/lina.png" alt="" />
-						<div class="py-2">
-							<h5 class="font-semibold text-xl mb-2">Ms. Sophat Chanleakhena</h5>
-							<p>Founder and the Managing Partner</p>
+					<a href="/about/lina">
+						<div class="bg-gray-100 p-2 rounded mb-4">
+							<img src="/images/people/lina.png" alt="" />
+							<div class="py-2">
+								<h5 class="font-semibold text-xl mb-2">Ms. Sophat Chanleakhena</h5>
+								<p>Founder and the Managing Partner</p>
+							</div>
 						</div>
-					</div>
-					<div class="bg-gray-100 p-2 rounded">
-						<img src="/images/people/esrra.png" alt="" />
-						<div class="py-2">
-							<h5 class="font-semibold text-xl mb-2">Mr. Beng Born Essra</h5>
-							<p>Co-founder and Manager of Tax</p>
+					</a>
+					<a href="/about/esrra">
+						<div class="bg-gray-100 p-2 rounded">
+							<img src="/images/people/esrra.png" alt="" />
+							<div class="py-2">
+								<h5 class="font-semibold text-xl mb-2">Mr. Beng Born Essra</h5>
+								<p>Co-founder and Manager of Tax</p>
+							</div>
 						</div>
-					</div>
+					</a>
 					<div />
 				</div>
 				<!-- Employee -->
